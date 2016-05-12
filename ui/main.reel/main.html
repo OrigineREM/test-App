@@ -40,6 +40,17 @@
                 }
             ]
         },
+        "image": {
+            "prototype": "digit/ui/image.reel",
+            "properties": {
+                "element": {"#": "image"},
+                "contenteditable": "true",
+                "crossOrigin": null,
+                "dir": "ltr",
+                "draggable": "true",
+                "src": "https://upload.wikimedia.org/wikipedia/commons/4/46/Themistokles_von_Eckenbrecher_Utsikt_over_Lærdalsøren.jpeg"
+            }
+        },
         "list": {
             "prototype": "digit/ui/list.reel",
             "properties": {
@@ -65,6 +76,7 @@
 </head>
 <body>
     <div data-montage-id="main" data-montage-skin="light" class="Main">
+        <img data-montage-id="image">
         <h1 data-montage-id="title">
 
         </h1>
